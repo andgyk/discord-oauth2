@@ -1,0 +1,27 @@
+{
+  "name": "discordoauth2",
+  "version": "1.0.0",
+  "description": "A simple to use module to work with Discord's OAuth2.",
+  "main": "./src/index.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": ["src"],
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/andgyk/discord-oauth2.git"
+  },
+  "readme": "https://github.com/andgyk/discord-oauth2#readme",
+  "author": "Andgyk",
+  "license": "MIT",
+  "keywords": ["discord", "oauth2", "api"],
+  "private": false,
+  "dependencies": {
+    "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "typescript": "^4.6.4"
+  }
+}

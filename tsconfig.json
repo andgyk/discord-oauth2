@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "declaration": true,
+        "strict": true,
+        "outDir": "./src",
+        "alwaysStrict": true,
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        // "declarationDir": "./typings",
+        "isolatedModules": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "include": ["lib"]
+}

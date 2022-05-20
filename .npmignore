@@ -1,0 +1,10 @@
+# dependency dir
+node_modules/
+
+# other dir
+lib/
+
+# files
+tsconfig.json
+.gitignore
+index.js
